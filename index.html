@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,15 +27,14 @@
       <!-- Custome CSS-->
       <link href="css/custom/custom.css" type="text/css" rel="stylesheet">
       <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="vendors/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet">
       <link href="vendors/jvectormap/jquery-jvectormap.css" type="text/css" rel="stylesheet">
       <link href="vendors/flag-icon/css/flag-icon.min.css" type="text/css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
       <link href="vendors/dropify/css/dropify.min.css" type="text/css" rel="stylesheet">
-       
-    <link href="vendors/data-tables/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
-             <style>
+      <link href="vendors/data-tables/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
+      <style>
          .my-text{
          color: #0E8C8C;   
          }
@@ -46,7 +44,6 @@
       </style>
    </head>
    <body >
-
       <!-- START HEADER -->
       <header id="header" class="page-topbar">
          <!-- start header nav-->
@@ -98,7 +95,7 @@
                            </a>
                         </li>
                         <li class="bold">
-                           <a href="/Medapati Vijay Reddy.pdf">
+                           <a onclick="openTab(event, 'resume')"  class="tablinks waves-effect waves-cyan">
                            <i class="material-icons">bookmark</i>
                            <span class="nav-text">Resume</span>
                            </a>
@@ -114,9 +111,8 @@
             <!-- //////////////////////////////////////////////////////////////////////////// -->
             <!-- START CONTENT -->
             <section id="content">
-                  <div id="about" class="tabcontent">
-                     
-                <h4 class="header center my-color white-text"> About me</h4>
+               <div id="about" class="tabcontent">
+                  <h4 class="header center my-color white-text"> About me</h4>
                   <div id="item-posts" class="row">
                      <div class="item-sizer"></div>
                      <div class="item col l8 offset-l2">
@@ -262,7 +258,7 @@
                                  <i class="material-icons cyan circle">web</i>
                                  <h6 class="collection-header m-0">My Projects</h6>
                               </li>
-                                     <li class="collection-item">
+                              <li class="collection-item">
                                  <div class="row">
                                     <div class="col s6">
                                        <p class="collections-title">My Bus </p>
@@ -380,9 +376,22 @@
                      </div>
                   </div>
                </div>
+               <!-----------------Resume------>
+               <div id="resume" class="tabcontent" >
+                  <div id="image-card" class="section">
+                     <h4 class="header center my-color white-text">My Resume</h4>
+                     <div class="row">
+                        <div class="col s12">
+                           <object data="Medapati Vijay Reddy.pdf" type="application/pdf" width="100%" height="100%">
+                              <p>Medapati Vijay Reddy <a href="/Medapati Vijay Reddy.pdf">to the PDF!</a></p>
+                           </object>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--------------->
                <!----------------------Follow Me------------>
                <div id="follow" class="tabcontent" >
-                 
                   <div id="image-card" class="section">
                      <h4 class="header center my-color white-text">Follow Me :)</h4>
                      <div class="row">
@@ -443,9 +452,9 @@
                      </div>
                   </div>
                </div>
-             </section>
-          </div>
-       </div>
+            </section>
+         </div>
+      </div>
       <!-- END MAIN -->
       <!-- //////////////////////////////////////////////////////////////////////////// -->
       <!-- START FOOTER -->
@@ -493,27 +502,27 @@
       <!--custom-script.js - Add your own theme custom JS-->
       <script type="text/javascript" src="js/custom-script.js"></script>
       <script type="text/javascript" src="js/scripts/advanced-ui-modals.js"></script>
-       <script async defer src="https://buttons.github.io/buttons.js"></script>
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
       <script type="text/javascript">
- 
-function openTab(evt, Tabname) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(Tabname).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
+         function openTab(evt, Tabname) {
+           var i, tabcontent, tablinks;
+           tabcontent = document.getElementsByClassName("tabcontent");
+           for (i = 0; i < tabcontent.length; i++) {
+             tabcontent[i].style.display = "none";
+           }
+           tablinks = document.getElementsByClassName("tablinks");
+           for (i = 0; i < tablinks.length; i++) {
+             tablinks[i].className = tablinks[i].className.replace(" active", "");
+           }
+           document.getElementById(Tabname).style.display = "block";
+           evt.currentTarget.className += " active";
+         }
+         
+         // Get the element with id="defaultOpen" and click on it
+         document.getElementById("defaultOpen").click();
+         
+               
       </script>
-
-             </body></html>
+   </body>
+</html>
 
