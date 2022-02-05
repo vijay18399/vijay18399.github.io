@@ -1,11 +1,13 @@
 :root {
-  --main: #4d2375;
-  --yellow: #fbce01;
+  --main: #050329;
+  --yellow: #fbc101;
   --white: #ffffff;
-  --main--dark: #2c0844;
-  --main--light: rgb(208, 168, 235);
+  --main--dark: #341d44;
+  --main--light: #f0edff;
   --blue: #051883;
   --main--light2: #860fe7;
+  --gray: #313256;
+  --green: #00c893;
 }
 
 *,
@@ -118,12 +120,12 @@ body {
   margin: 5px 0px;
 }
 section {
+  padding: 20px 0px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .flex-center {
@@ -153,13 +155,14 @@ section {
 /*  home  */
 #home {
   background-color: var(--main);
+  min-height: 100vh;
 }
 /*  image container  */
 .image-container {
   margin-top: 10px;
   width: 220px;
   height: 220px;
-  background-color: var(--main--dark);
+  background-color: var(--gray);
 }
 .image-subcontainer {
   width: 200px;
@@ -181,27 +184,44 @@ section {
   color: var(--main--light);
   font-size: 18px;
   margin: 5px 20px;
-  text-align: justify;
+  text-align: center;
   width: auto;
 }
 span {
   color: var(--white);
 }
 
-a {
+.buttons a {
   text-decoration: none;
-  color: var(--yellow);
-}
-.skill-container {
-  margin: 5px;
-}
-.subtitle {
-  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: var(--white) 2px solid;
+  margin: 10px;
   color: var(--white);
-  font-size: 20px;
 }
+.buttons a:hover {
+  border: var(--white) 2px solid;
+  background-color: var(--white);
+  color: var(--main);
+}
+
+@media screen and (max-width: 415px) {
+  .buttons a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: var(--white) 2px solid;
+    margin: 5px;
+    color: var(--white);
+  }
+}
+.link a {
+  color: var(--main--light2);
+  font-size: 24px;
+}
+
 .skills {
-  margin: 5px 20px;
   width: auto;
   display: flex;
   flex-wrap: wrap;
@@ -209,24 +229,36 @@ a {
   align-items: center;
 }
 .skills div {
-  color: var(--main--dark);
-  background-color: var(--white);
-  padding: 8px 16px;
+  color: var(--white);
+  background-color: var(--main--dark);
+  padding: 6px 12px;
   border-radius: 10px;
-  margin: 5px;
+  margin: 3px;
 }
 .skills div:hover {
   animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
 }
+
+.down-arrow i {
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  background-color: var(--main--light2);
+  border-radius: 20px;
+  margin: 30px;
+  animation: bounce linear infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
 /*  about  */
 #about {
-  background-color: var(--main--dark);
+  background: var(--main--light);
 }
 
 .card {
   margin: 10px;
-  background-color: var(--yellow);
+  background-color: var(--white);
   border-radius: 10px;
   max-width: 290px;
 }
@@ -293,19 +325,19 @@ a.card-link {
   color: var(--blue);
   font-size: 16px;
 }
-#about .section-title {
-  color: var(--white);
-}
+
 /*  work  */
 #work {
+  justify-content: flex-start;
   background-color: var(--white);
-}
-.project {
-  margin: 5px 10px;
+  min-height: 100vh;
 }
 
-.project:hover > .pimage-container {
-  background-color: #fbce01;
+.project {
+  margin: 5px 10px;
+  padding: 20px;
+
+  border-radius: 20px;
 }
 
 .overlay {
@@ -331,9 +363,9 @@ a.card-link {
 .button a {
   border-radius: 20px;
   text-align: center;
-  color: var(--blue);
+  color: var(--main--light);
   border: solid 2px var(--white);
-  background-color: #fbce01;
+  background-color: var(--main--dark);
   z-index: 1;
   padding: 7px 23px;
 }
@@ -351,8 +383,9 @@ a.card-link {
   position: relative;
   height: 200px;
   width: 300px;
-  border: #031750 5px solid;
+  border: var(--green) 5px solid;
   margin: 5px 0px;
+  border-radius: 10px;
 }
 .v-btn {
   position: absolute;
@@ -361,6 +394,7 @@ a.card-link {
 .project-image {
   height: 180px;
   width: 280px;
+  border-radius: 10px;
 }
 .dark {
   background-color: darkcyan;
@@ -368,20 +402,22 @@ a.card-link {
 #work .subtitle {
   text-align: center;
   color: var(--main--dark);
+  font-size: 20px;
 }
 
 /*  contact  */
 #contact {
-  background-color: var(--main--dark);
+  background-color: var(--main);
   color: var(--white);
 }
+
 #contact .section-title {
   color: var(--white);
 }
 
 .showtitle {
   text-align: center;
-  color: var(--main--light2);
+  color: var(--green);
   font-size: 20px;
 }
 
@@ -407,7 +443,7 @@ a.card-link {
   background-color: var(--main--dark);
   color: var(--white);
   margin: 5px;
-  border: 3px solid var(--yellow);
+  border: 3px solid #313256;
 }
 
 .contact-list a:hover {
@@ -416,7 +452,7 @@ a.card-link {
 }
 
 .email span {
-  color: var(--yellow);
+  color: #d66d5a;
 }
 
 #contact button {
@@ -459,9 +495,19 @@ a.card-link {
 }
 
 .contact-text {
-  margin: 0px 8px;
+  margin: 0px 12px;
 }
-
+footer {
+  height: 20vh;
+  background-color: var(--main);
+  color: var(--white);
+}
+.message span i {
+  animation: rubberBand linear infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  font-size: 18px;
+  color: #4e5ed3;
+}
 /*modal */
 
 .modaloverlay {
@@ -486,13 +532,11 @@ a.card-link {
   z-index: 99999;
 }
 .modaloverlay .modal {
-  background-color: rgb(33, 5, 65);
+  background-color: var(--main);
   height: 100%;
   position: relative;
   margin: 0 auto;
   padding: 3em;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 @media (min-width: 60em) {
   .modaloverlay .modal {
@@ -510,8 +554,8 @@ a.card-link {
   height: 100%;
 }
 .modaloverlay .close {
-  background-color: rgb(133, 64, 224);
-  color: white;
+  background-color: var(--green);
+  color: var(--main);
   font-size: 24px;
   padding: 8px 12px;
   position: absolute;
@@ -522,22 +566,22 @@ a.card-link {
   z-index: 1;
 }
 .project-title {
-  color: #d8e3ea;
+  color: var(--white);
   text-align: center;
   font-size: 36px;
 }
 .project-content p {
-  color: #d8e3ea;
+  color: var(--main--light);
 }
 .project-info {
   margin: 10px 0px;
   border-radius: 10px;
   padding: 20px;
-  background-color: #abaaed;
-  color: #031750;
+  background-color: var(--main--light);
+  color: var(--main--dark);
 }
 .sub-title {
-  color: #d8e3ea;
+  color: var(--white);
   text-align: left;
   font-size: 28px;
   margin: 10px 0px;
