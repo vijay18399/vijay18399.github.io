@@ -247,8 +247,6 @@ span {
   background-color: var(--main--light2);
   border-radius: 20px;
   margin: 30px;
-  animation: bounce linear infinite; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
 }
 
 /*  about  */
