@@ -1,0 +1,98 @@
+{
+  "intro": {
+    "profilImage": "assets/profileImage.png",
+    "name": "Vijay Reddy",
+    "introText": "A passionate Front-end Developer based in Hyderabad,Telangana",
+    "links": [
+      {
+        "name": "github",
+        "link": "https://www.github.com/vijay18399",
+        "iconClass": "devicon-github-original colored"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/vijay18399/",
+        "iconClass": "devicon-linkedin-plain colored"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subTitle":"Front-End Developer <br /> based in Hyderabad, Telangana",
+    "content": "I am a passionate Front-end Developer based in Hyderabad, Telangana. My focus is on creating dynamic and user-friendly web applications using the latest technologies.",
+    "techStack": [
+      {
+        "title": "HTML5",
+        "iconClass": "devicon-html5-plain",
+        "bgColor": "#DD0031",
+        "color": "#FFFFFF"
+      },
+      {
+        "title": "CSS3",
+        "iconClass": "devicon-css3-plain",
+        "bgColor": "#007ACC",
+        "color": "#FFFFFF"
+      },
+      {
+        "title": "Angular",
+        "iconClass": "devicon-angular-plain",
+        "bgColor": "#DD0031",
+        "color": "#FFFFFF"
+      },
+      {
+        "title": "TypeScript",
+        "iconClass": "devicon-typescript-plain",
+        "bgColor": "#007ACC",
+        "color": "#FFFFFF"
+      },
+      {
+        "title": "Node.js",
+        "iconClass": "devicon-nodejs-plain",
+        "bgColor": "#68A063",
+        "color": "#FFFFFF"
+      },
+      {
+        "title": "Electron",
+        "iconClass": "devicon-electron-original",
+        "bgColor": "#1B1C26",
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  "workInfo": [
+    {
+      "title": "Next Education",
+      "subTitle": "Engineer (R & D Team)",
+      "tasks": [
+        "Fixed bugs and stabilized digital whiteboard, gaining expertise in fabric.js.",
+        "Contributed to an Angular Electron project, exploring Node.js child processes and commands like robocopy.",
+        "Enhanced an Annotation Module, improving image/PDF readability on smaller screens with features like pinch zoom and panning.",
+        "Provided client support for Multiple Learning Tools, which includes speaking, writing, and computer science tools."
+      ]
+    },
+    {
+      "title": "TCS",
+      "subTitle": "Assistant System Engineer",
+      "tasks": [
+        "Support for multiple .NET projects.",
+        "Fixing bugs in Angular apps.",
+        "Conducted Research on .NET deployment for project upgrade."
+      ]
+    },
+    {
+      "title": "Mounty",
+      "subTitle": "Front End Developer Intern",
+      "tasks": [
+        "Built reusable UI components in Nuxt.js. Refactoring entire code base.",
+        "Worked on Customer Dashboard."
+      ]
+    }],
+    "contactInfo": {
+      "title": "Contact",
+      "subTitle": "Don't be shy! Hit me up! 👇",
+      "content": "Whether you have a project to discuss or need some advice, feel free to reach out. I'm best contacted by email, but you can use any other service you prefer.",
+      "email": "vijayreddy18399@gmail.com",
+      "phone": "6301832161"
+    }
+
+}
