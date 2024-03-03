@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "About Me",
-    "subTitle":"Front-End Developer <br /> based in Hyderabad, Telangana",
+    "subTitle": "Front-End Developer <br /> based in Hyderabad, Telangana",
     "content": "I am a passionate Front-end Developer based in Hyderabad, Telangana. My focus is on creating dynamic and user-friendly web applications using the latest technologies.",
     "techStack": [
       {
@@ -86,13 +86,36 @@
         "Built reusable UI components in Nuxt.js. Refactoring entire code base.",
         "Worked on Customer Dashboard."
       ]
-    }],
-    "contactInfo": {
-      "title": "Contact",
-      "subTitle": "Don't be shy! Hit me up! 👇",
-      "content": "Whether you have a project to discuss or need some advice, feel free to reach out. I'm best contacted by email, but you can use any other service you prefer.",
-      "email": "vijayreddy18399@gmail.com",
-      "phone": "6301832161"
     }
-
+  ],
+  "contactInfo": {
+    "title": "Contact",
+    "subTitle": "Don't be shy! Hit me up! 👇",
+    "content": "Whether you have a project to discuss or need some advice, feel free to reach out. I'm best contacted by email, but you can use any other service you prefer.",
+    "email": "vijayreddy18399@gmail.com",
+    "phone": "6301832161"
+  },
+  "projects": [
+    {
+      "title": "Whiteboard",
+      "link": "https://vijay18399.github.io/ngBoard/",
+      "repo": "https://www.github.com/vijay18399/ngBoard/",
+      "description": "Built from scratch, this digital whiteboard is a personal project developed during leisure time. Leveraging the power of Angular and fabric.js, the web application provides a comprehensive set of features, including drawing, erasing, a laser tool, text input, various shapes, zoom functionality, image support, and multi-page capabilities.",
+      "techStack": [
+        { "title": "Angular", "iconClass": "devicon-angular-plain" },
+        { "title": "Fabric.js", "iconClass": "custom-fabric-icon" }
+      ]
+    },
+    {
+      "title": "Talkie",
+      "link": "",
+      "repo": "https://github.com/vijay18399/chatapp-ionic-app",
+      "description": "Talkie is my final year project, a hybrid Android chat app with advanced features. It includes spam detection, language translation, and a range of chat functionalities such as text messaging, file uploads, polls, and group chats.",
+      "techStack": [
+        { "title": "Ionic", "iconClass": "devicon-ionic-original" },
+        { "title": "Node.js", "iconClass": "devicon-nodejs-plain" },
+        { "title": "Socket.io", "iconClass": "devicon-socketio-original" }
+      ]
+    }
+  ]
 }
