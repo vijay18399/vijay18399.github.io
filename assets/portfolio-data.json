@@ -2,7 +2,8 @@
   "intro": {
     "profilImage": "assets/profileImage.png",
     "name": "Vijay Reddy",
-    "introText": "A passionate Front-end Developer based in Hyderabad,Telangana",
+    "position": "Front-end Developer",
+    "location":"Hyderabad, Telangana",
     "links": [
       {
         "name": "github",
