@@ -1,9 +1,9 @@
 {
   "intro": {
     "profilImage": "assets/profileImage.png",
-    "name": "Vijay Reddy",
+    "name": "Medapati Vijay Reddy",
     "position": "Front-end Developer",
-    "location":"Hyderabad, Telangana",
+    "location": "Hyderabad, Telangana",
     "links": [
       {
         "name": "github",
@@ -64,28 +64,31 @@
     {
       "title": "Next Education",
       "subTitle": "Engineer (R & D Team)",
-      "tasks": [
-        "Fixed bugs and stabilized digital whiteboard, gaining expertise in fabric.js.",
-        "Contributed to an Angular Electron project, exploring Node.js child processes and commands like robocopy.",
-        "Enhanced an Annotation Module, improving image/PDF readability on smaller screens with features like pinch zoom and panning.",
-        "Provided client support for Multiple Learning Tools, which includes speaking, writing, and computer science tools."
+      "tasks":[
+        "Provided client support for various learning tools, including speaking, writing, and computer science. Integrated open-source tools like Scratch and jsPainter, while enhancing the legacy whiteboard with Tux Paint features.",
+        "Transformed an 18-hour manual content copying process into a 6-hour streamlined process with the Windows application, Content Copier, utilizing Angular, Electron, and Node.js.",
+        "Revamped an AngularJS directive for image and PDF annotation, converting it into a mobile-friendly JavaScript module with intuitive features such as pinch zoom, pan, and seamless adaptation across various screen sizes.",
+        "Improved stability of the legacy digital whiteboard on older fabric.js with critical bug fixes, maintaining optimal performance without upgrading.",
+        "Developed 12+ educational simulations from scratch and resolved bugs in Flash-to-modern-tech migration, showcasing expertise in Raphael.js, AngularJS."
       ]
+
     },
     {
       "title": "TCS",
       "subTitle": "Assistant System Engineer",
       "tasks": [
-        "Support for multiple .NET projects.",
-        "Fixing bugs in Angular apps.",
-        "Conducted Research on .NET deployment for project upgrade."
+        "Engineered SQL queries for the deletion of unsupported or inconsistent data, securing continued functionality, and crafted customized reports aligned with client specifications.",
+        "Focused on identifying and rectifying bugs in the Angular dynamic forms application, ensuring optimal functionality.",
+        "Led an R&D initiative to identify servers running .NET 4.5, conducted in-depth research, and upgraded to a supported CLR version for enhanced security, earning client appreciation."
       ]
+
     },
     {
       "title": "Mounty",
       "subTitle": "Front End Developer Intern",
       "tasks": [
-        "Built reusable UI components in Nuxt.js. Refactoring entire code base.",
-        "Worked on Customer Dashboard."
+        "Crafted a customized Customer Dashboard for campsite, adventure, and travel providers, incorporating versatile features and facilitating efficient data exchange through seamless file uploads and form submissions.",
+        "Spearheaded a comprehensive refactoring effort, optimizing the entire codebase for improved readability, maintainability, and performance."
       ]
     }
   ],
@@ -101,7 +104,7 @@
       "title": "Whiteboard",
       "link": "https://vijay18399.github.io/ngBoard/",
       "repo": "https://www.github.com/vijay18399/ngBoard/",
-      "description": "Built from scratch, this digital whiteboard is a personal project developed during leisure time. Leveraging the power of Angular and fabric.js, the web application provides a comprehensive set of features, including drawing, erasing, a laser tool, text input, various shapes, zoom functionality, image support, and multi-page capabilities.",
+      "description": "Developed a robust digital whiteboard from scratch, Enriched with features like drawing, erasing, laser tool, text input, shapes, zoom, image support, and multi-page functionality.Used Angular and Fabric.",
       "techStack": [
         { "title": "Angular", "iconClass": "devicon-angular-plain" },
         { "title": "Fabric.js", "iconClass": "custom-fabric-icon" }
@@ -111,7 +114,7 @@
       "title": "Talkie",
       "link": "",
       "repo": "https://github.com/vijay18399/chatapp-ionic-app",
-      "description": "Talkie is my final year project, a hybrid Android chat app with advanced features. It includes spam detection, language translation, and a range of chat functionalities such as text messaging, file uploads, polls, and group chats.",
+      "description": "Developed Talkie, a hybrid Android chat app for the final year project, featuring advanced functionalities like spam detection, language translation, and versatile chat options such as text messaging, file uploads, polls, and group chats. Used Ionic, Angular, and integrated Node.js with Socket.io for seamless communication.",
       "techStack": [
         { "title": "Ionic", "iconClass": "devicon-ionic-original" },
         { "title": "Node.js", "iconClass": "devicon-nodejs-plain" },
