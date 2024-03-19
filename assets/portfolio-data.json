@@ -21,71 +21,116 @@
     "title": "About Me",
     "subTitle": "Front-End Developer <br /> based in Hyderabad, Telangana",
     "content": "I am a passionate Front-end Developer based in Hyderabad, Telangana. My focus is on creating dynamic and user-friendly web applications using the latest technologies.",
-    "techStack": [
-      {
-        "title": "HTML5",
-        "iconClass": "devicon-html5-plain",
-        "bgColor": "#DD0031",
-        "color": "#FFFFFF"
-      },
-      {
-        "title": "CSS3",
-        "iconClass": "devicon-css3-plain",
-        "bgColor": "#007ACC",
-        "color": "#FFFFFF"
-      },
-      {
-        "title": "Angular",
-        "iconClass": "devicon-angular-plain",
-        "bgColor": "#DD0031",
-        "color": "#FFFFFF"
-      },
-      {
-        "title": "TypeScript",
-        "iconClass": "devicon-typescript-plain",
-        "bgColor": "#007ACC",
-        "color": "#FFFFFF"
-      },
-      {
-        "title": "Node.js",
-        "iconClass": "devicon-nodejs-plain",
-        "bgColor": "#68A063",
-        "color": "#FFFFFF"
-      },
-      {
-        "title": "Electron",
-        "iconClass": "devicon-electron-original",
-        "bgColor": "#1B1C26",
-        "color": "#FFFFFF"
-      }
-    ]
+    "techStack": {
+      "frontEnd": [
+        {
+          "title": "HTML5",
+          "iconClass": "devicon-html5-plain",
+          "bgColor": "#DD0031",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "CSS3",
+          "iconClass": "devicon-css3-plain",
+          "bgColor": "#007ACC",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "Angular",
+          "iconClass": "devicon-angular-plain",
+          "bgColor": "#DD0031",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "TypeScript",
+          "iconClass": "devicon-typescript-plain",
+          "bgColor": "#007ACC",
+          "color": "#FFFFFF"
+        }
+      ],
+      "backEnd": [
+        {
+          "title": "Node.js",
+          "iconClass": "devicon-nodejs-plain",
+          "bgColor": "#68A063",
+          "color": "#FFFFFF"
+        },{
+          "title": "Firebase",
+          "iconClass": "devicon-firebase-plain",
+          "bgColor": "#FFA000",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "Flask",
+          "iconClass": "devicon-flask-original",
+          "bgColor": "#000000",
+          "color": "#FFFFFF"
+
+        }
+      ],
+      "others": [
+        {
+          "title": "GitHub",
+          "iconClass": "devicon-github-original",
+          "bgColor": "#000000",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "Raphael.js",
+          "iconImage": "assets/RaphaelJs.png",
+          "bgColor": "#FFFFFF",
+          "color": "#000000"
+        },
+        {
+          "title": "Fabric.js",
+          "iconImage": "assets/fabricJs.png",
+          "bgColor": "#FFFFFF",
+          "color": "#000000"
+        },
+        {
+          "title": "Electron",
+          "iconClass": "devicon-electron-original",
+          "bgColor": "#1B1C26",
+          "color": "#FFFFFF"
+        }
+      ]
+    }
   },
   "workInfo": [
     {
       "title": "Next Education",
       "subTitle": "Engineer (R & D Team)",
-      "tasks":[
-        "Provided client support for various learning tools, including speaking, writing, and computer science. Integrated open-source tools like Scratch and jsPainter, while enhancing the legacy whiteboard with Tux Paint features.",
-        "Transformed an 18-hour manual content copying process into a 6-hour streamlined process with the Windows application, Content Copier, utilizing Angular, Electron, and Node.js.",
-        "Revamped an AngularJS directive for image and PDF annotation, converting it into a mobile-friendly JavaScript module with intuitive features such as pinch zoom, pan, and seamless adaptation across various screen sizes.",
-        "Improved stability of the legacy digital whiteboard on older fabric.js with critical bug fixes, maintaining optimal performance without upgrading.",
-        "Developed 12+ educational simulations from scratch and resolved bugs in Flash-to-modern-tech migration, showcasing expertise in Raphael.js, AngularJS."
+      "logoImg":"assets/nexteducation.jpg",
+      "link":"https://www.nexteducation.in",
+      "duration": "Aug 2022 - Present",
+      "summary":"In client support and software development for educational tools, I integrated open-source tools like Scratch and jsPainter while enhancing legacy whiteboard functionalities with Tux Paint features. Streamlining an 18-hour manual content copying process into a 6-hour workflow, I utilized the Content Copier Windows application developed with Angular, Electron, and Node.js. Additionally, I revamped an AngularJS directive for image and PDF annotation into a mobile-friendly JavaScript module and ensured stability of a legacy digital whiteboard. I also developed educational simulations, demonstrating expertise in technologies like Raphael.js and AngularJS.",
+      "tasks": [
+        "Client side support for  mutiple learning tools which includes speaking, writing, and CS.",
+        "Developed Content Copier Windows app built with Angular, Electron, and Node.js; improved efficiency by over 66%.",
+        "Revamped AngularJS image/PDF annotation directive into mobile-friendly JavaScript module with pinch zoom, pan, and seamless screen adaptation.",
+        "Worked with different canvas based frameworks in development of different products/features"
       ]
-
     },
     {
       "title": "TCS",
       "subTitle": "Assistant System Engineer",
+      "logoImg":"assets/tcs.png",
+      "link":"https://www.tcs.com",
+      "duration": "Feb 2021 - July 2022",
+      "summary":"In my role, I engineered SQL queries to remove unsupported or inconsistent data, ensuring continued system functionality, and tailored reports to meet client requirements. I also prioritized bug identification and resolution in an Angular dynamic forms application, guaranteeing optimal performance. Additionally, I spearheaded an R&D project to identify servers operating on .NET 4.5, conducted extensive research, and upgraded to a supported CLR version, enhancing security measures and earning client commendation.",
       "tasks": [
         "Engineered SQL queries for the deletion of unsupported or inconsistent data, securing continued functionality, and crafted customized reports aligned with client specifications.",
         "Focused on identifying and rectifying bugs in the Angular dynamic forms application, ensuring optimal functionality.",
         "Led an R&D initiative to identify servers running .NET 4.5, conducted in-depth research, and upgraded to a supported CLR version for enhanced security, earning client appreciation."
       ]
-
     },
     {
       "title": "Mounty",
       "subTitle": "Front End Developer Intern",
+      "logoImg":"assets/mounty.png",
+      "link":"https://www.linkedin.com/company/mounty/about/",
+      "duration": "July 2019 - Sept 2019",
+      "summary":"I designed and developed a tailored Customer Dashboard tailored for campsite, adventure, and travel providers, integrating versatile features to facilitate efficient data exchange via seamless file uploads and form submissions. Additionally, I led a comprehensive refactoring initiative, enhancing the entire codebase for improved readability, maintainability, and performance, ensuring the platform operates optimally and meets evolving business needs effectively.",
       "tasks": [
         "Crafted a customized Customer Dashboard for campsite, adventure, and travel providers, incorporating versatile features and facilitating efficient data exchange through seamless file uploads and form submissions.",
         "Spearheaded a comprehensive refactoring effort, optimizing the entire codebase for improved readability, maintainability, and performance."
@@ -96,25 +141,26 @@
     "title": "Contact",
     "subTitle": "Don't be shy! Hit me up! 👇",
     "content": "Whether you have a project to discuss, need some advice, or if you are hiring and want to add a skilled developer to your team, feel free to reach out.",
-    "email": "vijayreddy18399@gmail.com",
-    "phone": "6301832161"
+    "email": "vijayreddy18399@gmail.com"
   },
   "projects": [
     {
+      "image":"assets/whiteboard.png",
       "title": "Whiteboard",
       "link": "https://vijay18399.github.io/ngBoard/",
       "repo": "https://www.github.com/vijay18399/ngBoard/",
-      "description": "Developed a robust digital whiteboard from scratch, Enriched with features like drawing, erasing, laser tool, text input, shapes, zoom, image support, and multi-page functionality.Used Angular and Fabric.",
+      "tasks":[ "Developed a robust digital whiteboard from scratch, Enriched with features like drawing, erasing, laser tool, text input, shapes, zoom, image support, and multi-page functionality.","Used Angular and Fabric."],
       "techStack": [
         { "title": "Angular", "iconClass": "devicon-angular-plain" },
         { "title": "Fabric.js", "iconClass": "custom-fabric-icon" }
       ]
     },
     {
+      "image":"assets/chat.png",
       "title": "Talkie",
       "link": "",
       "repo": "https://github.com/vijay18399/chatapp-ionic-app",
-      "description": "Developed Talkie, a hybrid Android chat app for the final year project, featuring advanced functionalities like spam detection, language translation, and versatile chat options such as text messaging, file uploads, polls, and group chats. Used Ionic, Angular, and integrated Node.js with Socket.io for seamless communication.",
+      "tasks": ["Developed Talkie, a hybrid Android chat app for the final year project","Featuring advanced functionalities like spam detection, language translation, and versatile chat options such as text messaging, file uploads, polls, and group chats."," Used Ionic, Angular, and integrated Node.js with Socket.io for seamless communication."],
       "techStack": [
         { "title": "Ionic", "iconClass": "devicon-ionic-original" },
         { "title": "Node.js", "iconClass": "devicon-nodejs-plain" },
