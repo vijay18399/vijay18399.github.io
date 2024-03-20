@@ -24,14 +24,26 @@
     "techStack": {
       "frontEnd": [
         {
-          "title": "HTML5",
+          "title": "HTML",
           "iconClass": "devicon-html5-plain",
           "bgColor": "#DD0031",
           "color": "#FFFFFF"
         },
         {
-          "title": "CSS3",
+          "title": "CSS",
           "iconClass": "devicon-css3-plain",
+          "bgColor": "#007ACC",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "JavaScript",
+          "iconClass": "devicon-javascript-plain",
+          "bgColor": "#F7DF1E",
+          "color": "#000000"
+        },
+        {
+          "title": "TypeScript",
+          "iconClass": "devicon-typescript-plain",
           "bgColor": "#007ACC",
           "color": "#FFFFFF"
         },
@@ -42,9 +54,15 @@
           "color": "#FFFFFF"
         },
         {
-          "title": "TypeScript",
-          "iconClass": "devicon-typescript-plain",
-          "bgColor": "#007ACC",
+          "title": "Sass",
+          "iconClass": "devicon-sass-original",
+          "bgColor": "#CC6699",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "Tailwind CSS",
+          "iconClass": "devicon-tailwindcss-original",
+          "bgColor": "#38B2AC",
           "color": "#FFFFFF"
         }
       ],
@@ -54,7 +72,8 @@
           "iconClass": "devicon-nodejs-plain",
           "bgColor": "#68A063",
           "color": "#FFFFFF"
-        },{
+        },
+        {
           "title": "Firebase",
           "iconClass": "devicon-firebase-plain",
           "bgColor": "#FFA000",
@@ -65,7 +84,24 @@
           "iconClass": "devicon-flask-original",
           "bgColor": "#000000",
           "color": "#FFFFFF"
-
+        },
+        {
+          "title": ".NET",
+          "iconClass": "devicon-dot-net-plain",
+          "bgColor": "#5C2D91",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "MySQL",
+          "iconClass": "devicon-mysql-original",
+          "bgColor": "#4479A1",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "MongoDB",
+          "iconClass": "devicon-mongodb-plain",
+          "bgColor": "#47A248",
+          "color": "#FFFFFF"
         }
       ],
       "others": [
@@ -73,6 +109,18 @@
           "title": "GitHub",
           "iconClass": "devicon-github-original",
           "bgColor": "#000000",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "npm",
+          "iconClass": "devicon-npm-original-wordmark",
+          "bgColor": "#CB3837",
+          "color": "#FFFFFF"
+        },
+        {
+          "title": "Postman",
+          "iconClass": "devicon-postman-plain",
+          "bgColor": "#FF6C37",
           "color": "#FFFFFF"
         },
         {
@@ -91,10 +139,11 @@
           "title": "Electron",
           "iconClass": "devicon-electron-original",
           "bgColor": "#1B1C26",
-          "color": "#FFFFFF"
+          "color": "#9feaf9"
         }
       ]
     }
+
   },
   "workInfo": [
     {
@@ -105,8 +154,8 @@
       "duration": "Aug 2022 - Present",
       "summary":"In client support and software development for educational tools, I integrated open-source tools like Scratch and jsPainter while enhancing legacy whiteboard functionalities with Tux Paint features. Streamlining an 18-hour manual content copying process into a 6-hour workflow, I utilized the Content Copier Windows application developed with Angular, Electron, and Node.js. Additionally, I revamped an AngularJS directive for image and PDF annotation into a mobile-friendly JavaScript module and ensured stability of a legacy digital whiteboard. I also developed educational simulations, demonstrating expertise in technologies like Raphael.js and AngularJS.",
       "tasks": [
-        "Client side support for  mutiple learning tools which includes speaking, writing, and CS.",
-        "Developed Content Copier Windows app built with Angular, Electron, and Node.js; improved efficiency by over 66%.",
+        "Client side support for  multiple ai based learning tools which includes speaking, writing, and Computer Science.",
+        "Developed Content Copier, a Windows app built with Angular, Electron, and Node.js; improved efficiency by over 66%.",
         "Revamped AngularJS image/PDF annotation directive into mobile-friendly JavaScript module with pinch zoom, pan, and seamless screen adaptation.",
         "Worked with different canvas based frameworks in development of different products/features"
       ]
