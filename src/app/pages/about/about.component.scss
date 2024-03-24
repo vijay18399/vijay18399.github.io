@@ -1,0 +1,28 @@
+@import '../../../assets/scss/abstracts/mixins';
+@import '../../../assets/scss/abstracts/variables';
+#about {
+  .about-container {
+    @include flex-container(column, center, stretch);
+    padding: 20px;
+    .about-info {
+      margin-bottom: 10px;
+      text-align: center;
+      .about-title {
+        font-size: 20x;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: $text-dark
+      }
+    }
+    .tech-container {
+      text-align: center;
+      .tech-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: $text-dark
+      }
+
+    }
+  }
+}

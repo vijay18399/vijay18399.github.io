@@ -1,0 +1,15 @@
+<section id="about">
+  <div class="about-container">
+    <page-title [title]="aboutData.title"></page-title>
+    <div class="about-info">
+      <h2 class="about-title">{{aboutData.subTitle}}</h2>
+      <tech-block *ngIf="aboutData.summary"  [titleText]="aboutData.summary"></tech-block>
+    </div>
+    <div class="tech-container">
+      <h2 class="tech-title">Tech I Use</h2>
+      <tech-block [titleText]="aboutData.techStack.frontEnd.title"  [techInfo]="aboutData.techStack.frontEnd.technologies"></tech-block>
+      <tech-block [titleText]="aboutData.techStack.backEnd.title"  [techInfo]="aboutData.techStack.backEnd.technologies"></tech-block>
+      <tech-block [titleText]="aboutData.techStack.others.title"   [techInfo]="aboutData.techStack.others.technologies"></tech-block>
+    </div>
+  </div>
+</section>

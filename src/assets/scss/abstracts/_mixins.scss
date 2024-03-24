@@ -1,0 +1,19 @@
+// Mixin for flex container
+@mixin flex-container($direction: row, $justify: flex-start, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin circle($size: 50px) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
+@mixin transition($property, $duration, $timing: ease) {
+  transition: $property $duration $timing;
+}
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
