@@ -1,0 +1,9 @@
+{
+  "brandName":"vijay18399",
+  "links":{
+    "home" : true,
+    "about" : true,
+    "projects" : true,
+    "work" : true
+  }
+}
