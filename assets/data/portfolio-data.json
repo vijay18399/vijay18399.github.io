@@ -30,8 +30,7 @@
     "title": "I'm Vijay",
     "subTitle": "I'm a Web developer. I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
     "summary": "",
-    "techStack":{
-      "frontEnd": {
+    "techStack": {
         "title": "These include, but are not limited to, the technologies I use for building client-side applications",
         "technologies": [
           {
@@ -65,90 +64,20 @@
             "color": "#FFFFFF"
           },
           {
-            "title": "Sass",
-            "iconClass": "devicon-sass-original",
-            "bgColor": "#CC6699",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": "Tailwind CSS",
-            "iconClass": "devicon-tailwindcss-original",
-            "bgColor": "#38B2AC",
-            "color": "#FFFFFF"
-          }
-        ]
-      },
-      "backEnd": {
-        "title": "These include, but are not limited to, the technologies I use in backend",
-        "technologies": [
-          {
             "title": "Node.js",
             "iconClass": "devicon-nodejs-plain",
             "bgColor": "#68A063",
             "color": "#FFFFFF"
           },
           {
-            "title": "Firebase",
-            "iconClass": "devicon-firebase-plain",
-            "bgColor": "#FFA000",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": "Flask",
-            "iconClass": "devicon-flask-original",
-            "bgColor": "#000000",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": ".NET",
-            "iconClass": "devicon-dot-net-plain",
-            "bgColor": "#5C2D91",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": "MySQL",
-            "iconClass": "devicon-mysql-original",
-            "bgColor": "#4479A1",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": "MongoDB",
-            "iconClass": "devicon-mongodb-plain",
-            "bgColor": "#47A248",
-            "color": "#FFFFFF"
-          }
-        ]
-      },
-      "others": {
-        "title": "Others...and more!",
-        "technologies": [
-          {
-            "title": "GitHub",
-            "iconClass": "devicon-github-original",
-            "bgColor": "#000000",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": "npm",
-            "iconClass": "devicon-npm-original-wordmark",
-            "bgColor": "#CB3837",
-            "color": "#FFFFFF"
-          },
-          {
-            "title": "Postman",
-            "iconClass": "devicon-postman-plain",
-            "bgColor": "#FF6C37",
-            "color": "#FFFFFF"
-          },
-          {
             "title": "Raphael.js",
-            "iconImage": "assets/images/skills/RaphaelJs.png",
+            "iconImage": "assets/images/skills/RaphaelJs.svg",
             "bgColor": "#FFFFFF",
             "color": "#000000"
           },
           {
             "title": "Fabric.js",
-            "iconImage": "assets/images/skills/fabricJs.png",
+            "iconImage": "assets/images/skills/fabricJs.svg",
             "bgColor": "#FFFFFF",
             "color": "#000000"
           },
@@ -159,51 +88,35 @@
             "color": "#9feaf9"
           }
         ]
-      }
     }
   },
   "workInfo": [
     {
       "title": "Next Education",
       "subTitle": "Engineer (R & D Team)",
-      "links":{
-        "company":"https://www.nexteducation.in"
+      "company":{
+        "link":"https://www.nexteducation.in",
+        "logo":"assets/images/logos/nxt.jpg"
       },
-      "duration": "Aug 2022 - Present",
-      "summary":"In client support and software development for educational tools, I integrated open-source tools like Scratch and jsPainter while enhancing legacy whiteboard functionalities with Tux Paint features. Streamlining an 18-hour manual content copying process into a 6-hour workflow, I utilized the Content Copier Windows application developed with Angular, Electron, and Node.js. Additionally, I revamped an AngularJS directive for image and PDF annotation into a mobile-friendly JavaScript module and ensured stability of a legacy digital whiteboard. I also developed educational simulations, demonstrating expertise in technologies like Raphael.js and AngularJS.",
-      "tasks": [
-        "Client side support for  multiple ai based learning tools which includes speaking, writing, and Computer Science.",
-        "Developed Content Copier, a Windows app built with Angular, Electron, and Node.js; improved efficiency by over 66%.",
-        "Revamped AngularJS image/PDF annotation directive into mobile-friendly JavaScript module with pinch zoom, pan, and seamless screen adaptation.",
-        "Worked with different canvas based frameworks in development of different products/features"
-      ]
+      "duration": "Aug 2022 - Present"
     },
     {
       "title": "TCS",
       "subTitle": "Assistant System Engineer",
-      "links":{
-        "company":"https://www.tcs.com"
+      "company":{
+        "link":"https://www.tcs.com",
+         "logo":"assets/images/logos/tcs.png"
       },
-      "duration": "Feb 2021 - July 2022",
-      "summary":"In my role, I engineered SQL queries to remove unsupported or inconsistent data, ensuring continued system functionality, and tailored reports to meet client requirements. I also prioritized bug identification and resolution in an Angular dynamic forms application, guaranteeing optimal performance. Additionally, I spearheaded an R&D project to identify servers operating on .NET 4.5, conducted extensive research, and upgraded to a supported CLR version, enhancing security measures and earning client commendation.",
-      "tasks": [
-        "Engineered SQL queries for the deletion of unsupported or inconsistent data, securing continued functionality, and crafted customized reports aligned with client specifications.",
-        "Focused on identifying and rectifying bugs in the Angular dynamic forms application, ensuring optimal functionality.",
-        "Led an R&D initiative to identify servers running .NET 4.5, conducted in-depth research, and upgraded to a supported CLR version for enhanced security, earning client appreciation."
-      ]
+      "duration": "Feb 2021 - July 2022"
     },
     {
       "title": "Mounty",
       "subTitle": "Front End Developer Intern",
-      "links":{
-        "company":"https://www.linkedin.com/company/mounty/about/"
+      "company":{
+        "link":"https://www.linkedin.com/company/mounty/about/",
+         "logo":"assets/images/logos/mounty.png"
       },
-      "duration": "July 2019 - Sept 2019",
-      "summary":"I designed and developed a tailored Customer Dashboard tailored for campsite, adventure, and travel providers, integrating versatile features to facilitate efficient data exchange via seamless file uploads and form submissions. Additionally, I led a comprehensive refactoring initiative, enhancing the entire codebase for improved readability, maintainability, and performance, ensuring the platform operates optimally and meets evolving business needs effectively.",
-      "tasks": [
-        "Crafted a customized Customer Dashboard for campsite, adventure, and travel providers, incorporating versatile features and facilitating efficient data exchange through seamless file uploads and form submissions.",
-        "Spearheaded a comprehensive refactoring effort, optimizing the entire codebase for improved readability, maintainability, and performance."
-      ]
+      "duration": "July 2019 - Sept 2019"
     }
   ],
   "projects": [
