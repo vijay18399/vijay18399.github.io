@@ -1,0 +1,130 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "education": "Education",
+    "skills": "Technologies",
+    "projects": "Projects",
+    "awards": "Publications"
+  },
+  "basics": {
+    "name": "Medapati Vijay Reddy",
+    "email": "vijayreddy18399@gmail.com",
+    "phone": "6301832161",
+    "website": "https://vijay18399.github.io",
+    "linkedin": "https://linkedin.com/in/vijay18399",
+    "location": {
+      "address": "Hyderabad"
+    }
+  },
+  "education": [
+    {
+      "institution": "Aditya Engineering College",
+      "location": "Kakinada",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.Tech",
+      "startDate": "June 2016",
+      "endDate": "Sept 2020",
+      "gpa": "8.01"
+    }
+  ],
+  "work": [
+    {
+      "company": "Next Education",
+      "location": "Hyderabad, Telangana",
+      "position": "Engineer (R & D Department)",
+      "website": "https://www.nexteducation.in",
+      "startDate": "Aug 2022",
+      "endDate": "Present",
+      "highlights": [
+        "Developed UI and client-side code for AI-powered English learning tools, integrating real-time APIs for speaking and writing modules.",
+        "Reduced Time to copy content by 60% by implementing a desktop App in Angular, Node.js, Electron.",
+        "Integrated and extended the PanZoom library in the eBook project to support pinch zoom and swipe gestures.",
+        "Developed a tuxpaint web version on top of pre-existing legacy whiteboard (AngularJS, Fabric.js).",
+        "Integrated and extended the Scratch (React) project to support multiple environments, enabling teachers to create questions and students to attempt them.",
+        "Refactored and rebuilt a PDF/image annotation tool for cross-device syncing with pinch-to-zoom support."
+      ]
+    },
+    {
+      "company": "TCS",
+      "location": "Remote",
+      "position": "Assistant System Engineer",
+      "website": "https://www.tcs.com",
+      "startDate": "Feb 2021",
+      "endDate": "Aug 2022",
+      "highlights": [
+        "Provided support for .NET-based projects, writing queries for generating reports, deleting faulty data based on client requirements.",
+        "Contributed as part of a team for 6 months on researching and upgrading .NET projects for a client. Responsibilities included identifying server requirements, coordinating with stakeholders, and collaborating with the system team to strategize the upgrade process."
+      ]
+    },
+    {
+      "company": "Mounty",
+      "location": "Hyderabad",
+      "position": "Frontend Developer Intern",
+      "website": "https://www.mounty.co",
+      "startDate": "July 2019",
+      "endDate": "Sept 2019",
+      "highlights": [
+        "Developed a user-friendly interface for campsite owners to upload details and images.",
+        "Refactored the codebase to introduce reusable components, enhancing code maintainability and operational efficiency across the project."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "NgBoard",
+      "description": "Built a digital whiteboard with tools like drawing, text annotations, laser, and custom brush for smooth strokes and paint bucket tool, with pan zoom functionality using events.",
+      "url": "https://vijay18399.github.io/ngBoard",
+      "keywords": [
+        "Angular",
+        "Fabric.js"
+      ]
+    },
+    {
+      "name": "Spell Bee",
+      "description": "Built a mobile-first Spell Bee app enabling users to select word difficulty levels (A1 to C1), with an SQLite database and Node.js for dynamic word generation.",
+      "url": "https://vijay18399.github.io",
+      "keywords": [
+        "Angular",
+        "Angular Material",
+        "NgRx",
+        "Node.js",
+        "SQLite"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "An Enhanced Messenger with Language Translator and Sentiment Analysis",
+      "date": "Sept 2020",
+      "authors": "M Vijay Reddy, N. Soundarya, M.N.V Ravindra, K. Sai Srujana",
+      "journal": "International Journal of Advance Study and Research Work",
+      "pages": "98-107",
+      "issn": "2581-5997"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frameworks & Libraries",
+      "level": "Advanced",
+      "keywords": [
+        "Angular",
+        "Angular Material",
+        "Node.js",
+        "Electron.js",
+        "Fabric.js",
+        "jQuery",
+        "SQLite"
+      ]
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
