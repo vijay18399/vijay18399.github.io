@@ -1,28 +1,27 @@
-# Portfolio Website: vijay18399
+# Portfolio
 
-This repository contains the source code for my personal portfolio website. You can clone this project and update the JSON data file to create your own version of the portfolio site.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
 
-## How to Use
+## Development server
 
-1. **Clone the Repository**: Clone this repository to your local machine using Git:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-    ```bash
-    git clone https://github.com/vijay18399/vijay18399.github.io.git
-    ```
+## Code scaffolding
 
-2. **Update JSON Data**: 
-   - Modify the `portfolio-data.json` file located in the `src/assets/data` directory. Update the JSON data with your personal information, work experience, projects, and skills.
-   - Modify the `config.json` file located in the `src/assets/data` directory. Update the JSON data with your Name and configure the navigation links according to your preference.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-3. **Customize**: Feel free to customize the styling, layout, and content of the website to match your preferences and showcase your work effectively.
+## Build
 
-4. **Run Locally**: After making your changes, you can run the portfolio website locally to preview your changes. Make sure you have Angular CLI installed. Navigate to the project directory and run:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-    ```bash
-    ng serve --open
-    ```
+## Running unit tests
 
-5. **Deploy**: Once you're satisfied with your changes, deploy your portfolio website to your preferred hosting platform. You can use services like GitHub Pages, Netlify, or Vercel for easy deployment.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
-Feel free to reach out if you have any questions or need further assistance!
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

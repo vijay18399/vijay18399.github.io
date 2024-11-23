@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+/* Container with two columns */
+.rhombus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 0; /* Remove space between rhombuses */
+  width: 120px; /* Total width constraint */
+  margin: 0 auto; /* Center the grid */
+}
+
+/* Rhombus shape */
+.rhombus {
+  width: 60px; /* Width of the rhombus */
+  height: 60px; /* Height of the rhombus */
+  background-color: #3498db; /* Default color */
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* Rhombus shape */
+  transform: rotate(45deg); /* Interlinking effect */
+  margin: -15px 0; /* Adjust vertical overlap for interlinking */
+}
+
+/* Alternate colors for interlinked pattern */
+.rhombus:nth-child(even) {
+  background-color: #1abc9c;
+}
+
+/* Hover effects */
+.rhombus:hover {
+  background-color: #2ecc71;
+  transform: rotate(45deg) scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="rhombus-grid">
+    <div class="rhombus"></div>
+    <div class="rhombus"></div>
+    <div class="rhombus"></div>
+    <div class="rhombus"></div>
+    <div class="rhombus"></div>
+    <div class="rhombus"></div>
+  </div>
+  
+
+</body>
+</html>

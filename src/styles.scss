@@ -1,137 +1,64 @@
-@import '../src/assets/scss/abstracts/variables';
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-  margin: 0;
-  padding: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-fieldset,
-img {
-  border: 0;
-}
-
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-th,
-var {
-  font-style: normal;
-  font-weight: normal;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-caption,
-th {
-  text-align: left;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
-q:before,
-q:after {
-  content: '';
-}
-
-abbr,
-acronym {
-  border: 0;
-  font-variant: normal;
-}
-
-sup {
-  vertical-align: baseline;
-}
-
-sub {
-  vertical-align: baseline;
-}
-
-/* End of reset styles */
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #ffff;
-}
-
-html {
-  height: -webkit-fill-available;
-}
-.w-100{
+/* You can add global styles to this file, and also import other style files */
+@use '@ngxpert/hot-toast/src/styles/styles.scss';
+@import './styles/reset';
+app-root{
   width: 100%;
+  height: 100%;
 }
-.hidden{
-  display: none !important;
-}
-.text-center{
-  text-align: center;
-}
-
-.flex-center {
-  position: relative;
+.ng-otp-input-wrapper{
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   justify-content: center;
-  align-items: center;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+ }
+.otp-input{
+  width: 39px !important;
+  height: 39px !important;
+  font-size: 26px !important;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: $brand-primary;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #1A237E #DFE9EB;
+}*/
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #7a97af;
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f3f4f6; /* Light gray for the track */
 }
 
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #9fa8da; /* Light blue for the thumb */
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #7986cb; /* Slightly darker blue on hover */
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: #5c6bc0; /* Even darker blue when active */
+}
+
+.canvas-container{
+  canvas{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+  }
+}
+
+.cdk-overlay-dark-backdrop{
+  background: #312C4F;
+}
