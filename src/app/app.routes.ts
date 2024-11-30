@@ -1,10 +1,13 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home-page.component';
-
 export const routes: Routes = [
   {
     path:'home',
     component: HomeComponent
+  },
+  {
+    path:'emoji-war',
+    loadChildren: () => import('./game-engine/game-engine.module').then(m => m.GameEngineModule)
   },
   { path: 'paint-tool', loadChildren: () => import('./whiteboard/whiteboard.module').then(m => m.WhiteboardModule) },
   { path: 'spell-bee', loadChildren: () => import('./spell-bee/spell-bee.module').then(m => m.SpellBeeModule) },

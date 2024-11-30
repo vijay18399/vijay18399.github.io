@@ -7,7 +7,7 @@
     "build": "ng build",
     "postinstall": "cd node_modules/fabric && npm run build_with_gestures",
     "watch": "ng build --watch --configuration development",
-    "deploy":"ng build  --base-href='' && ngh --dir=dist/portfolio/browser",
+    "deploy": "ng build  --base-href='' && ngh --dir=dist/portfolio/browser",
     "test": "ng test"
   },
   "private": true,
@@ -27,6 +27,7 @@
     "@ngrx/effects": "^18.1.1",
     "@ngrx/store": "^18.1.1",
     "@ngxpert/hot-toast": "^3.0.2",
+    "@types/raphael": "^2.3.9",
     "bezier-js": "^6.1.4",
     "canvas-confetti": "^1.9.3",
     "fabric": "5.4.2-browser",
@@ -35,6 +36,7 @@
     "ng-circle-progress": "^1.7.1",
     "ng-otp-input": "^1.9.3",
     "perfect-freehand": "^1.2.2",
+    "raphael": "^2.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"

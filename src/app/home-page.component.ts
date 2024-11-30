@@ -165,9 +165,14 @@ export class HomeComponent {
       title: 'Paint Tool',
       route: '/paint-tool',
       image: 'images/projects/paint-tool.png',
+    },
+    {
+      title: 'Fruit Fenzy',
+      route: '/emoji-war',
+      image: 'images/projects/game.png',
     }
   ];
-  isLoading: boolean =  true;
+  isLoading: boolean =  false;
   constructor(public wordService:WordService){
     this.wordService.isActive().subscribe((data)=>{
         this.isLoading = false;
