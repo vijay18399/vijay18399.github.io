@@ -6,7 +6,7 @@ export const routes: Routes = [
     component: HomeComponent
   },
   {
-    path:'emoji-war',
+    path:'yes-hungry',
     loadChildren: () => import('./game-engine/game-engine.module').then(m => m.GameEngineModule)
   },
   { path: 'paint-tool', loadChildren: () => import('./whiteboard/whiteboard.module').then(m => m.WhiteboardModule) },

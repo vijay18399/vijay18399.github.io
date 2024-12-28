@@ -15,6 +15,7 @@ import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
     <form [formGroup]="wordForm" class="word-wrap">
       <input
         *ngFor="let control of limitArray; let i = index"
+        autocomplete="off"
         class="letter-input"
         [id]="'letter-' + i"
         [formControlName]="'letter-' + i"
@@ -51,7 +52,8 @@ import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 7px;
+        flex-wrap: wrap;
       }
 
       .letter-input::selection {

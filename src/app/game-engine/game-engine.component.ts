@@ -26,7 +26,7 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
       <!-- Home Screen -->
       <div class="popup" *ngIf="gameState === 'home'">
         <h4 *ngIf="!showInstructions" class="game-title">
-          <span class="title-highlight">Welcome to Emoji War</span>!
+          <span class="title-highlight">Welcome to Yes Hungry</span>
         </h4>
         <div *ngIf="!showInstructions" class="avatar-picker">
           <p>Select Your Avatar:</p>
@@ -48,7 +48,7 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
         <div *ngIf="showInstructions" class="instructions-section">
           <div class="instruction">
             <img class="instruction-icon" [src]="config.obstacle.image" alt="Obstacle Emoji" />
-            <p><strong>Avoid Enemy Emojis</strong> to stay alive!</p>
+            <p><strong>Avoid the Snake and the Crocodiles</strong> to stay alive!</p>
           </div>
           <div class="instruction">
             <img class="instruction-icon" [src]="config.food.images[0]" alt="Food Item" />
@@ -60,7 +60,7 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
           </div>
           <div class="instruction">
             <img class="instruction-icon" src="images/cursors/pause.svg" alt="Pause Icon" />
-            <p><strong>Double-Click</strong> to pause the game.</p>
+            <p><strong>Press the Pause button </strong> to halt the game.</p>
           </div>
         </div>
         <button *ngIf="showInstructions" class="primary-btn" (click)="toggleInstructions()">Got it! 🚀</button>
@@ -112,7 +112,7 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
         color: #ffffff;
         width: 350px;
         height: 420px;
-        padding: 20px;
+        padding: 12px;
         border-radius: 15px;
         text-align: center;
         display: flex;
@@ -159,7 +159,7 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
       }
       .game-title {
         font-size: 24px;
-        margin-bottom: 15px;
+        margin-bottom: -15px;
       }
 
       .title-highlight {
@@ -173,14 +173,14 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
       .avatar-grid {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
         flex-wrap: wrap;
       }
 
       .avatar-item {
-        width: 60px;
-        height: 60px;
-        border: 8px solid transparent;
+        width: 50px;
+        height: 50px;
+        border: 2px solid transparent;
         border-radius: 50%;
         cursor: pointer;
         transition: transform 0.3s, border-color 0.3s;
@@ -250,15 +250,7 @@ type GameState = 'home' | 'playing' | 'paused' | 'gameOver';
 })
 export class GameEngineComponent implements OnInit {
 
-  public avatarImages: string[] = [
-    'images/utils/actors/cool.svg',
-    'images/utils/actors/happy.svg',
-    'images/utils/actors/inlove.svg',
-    'images/utils/actors/kiss.svg',
-    'images/utils/actors/kiss2.svg',
-    'images/utils/actors/nerd.svg',
-    'images/utils/actors/ninja.svg',
-  ];
+
   public gameState: GameState = 'home';
   public showInstructions = false;
   public toggleInstructions(): void {
@@ -278,22 +270,48 @@ export class GameEngineComponent implements OnInit {
 
   private viewportWidth = window.innerWidth;
   private viewportHeight = window.innerHeight;
+  public avatarImages: string[] = [
+    "images/utils/actors/buffalo.png",
+    "images/utils/actors/chick.png",
+    "images/utils/actors/chicken.png",
+    "images/utils/actors/cow.png",
+    "images/utils/actors/duck.png",
+    "images/utils/actors/elephant.png",
+    "images/utils/actors/frog.png",
+    "images/utils/actors/giraffe.png",
+    "images/utils/actors/goat.png",
+    "images/utils/actors/hippo.png",
+    "images/utils/actors/horse.png",
+    "images/utils/actors/monkey.png",
+    "images/utils/actors/narwhal.png",
+    "images/utils/actors/owl.png",
+    "images/utils/actors/panda.png",
+    "images/utils/actors/parrot.png",
+    "images/utils/actors/penguin.png",
+    "images/utils/actors/pig.png",
+    "images/utils/actors/rabbit.png",
+    "images/utils/actors/rhino.png",
+    "images/utils/actors/sloth.png",
+    "images/utils/actors/walrus.png",
+    "images/utils/actors/whale.png",
+    "images/utils/actors/zebra.png"
+  ];
 
   public config: any = {
     player: {
-      image: 'images/utils/actors/ninja.svg',
+      image: 'images/utils/actors/parrot.png',
       size: 50,
-      speed: 3,
+      speed: 6,
     },
     obstacle: {
-      image: 'images/utils/actors/enemy.svg',
+      image: 'images/utils/actors/crocodile.png',
       size: 70,
-      speed: 1.5,
+      speed: 2.5,
     },
     devil: {
-      image: 'images/utils/actors/devil.svg',
-      size: 30,
-      speed: 1,
+      image: 'images/utils/actors/snake.png',
+      size: 45,
+      speed: 2.5,
     },
     devilEnabled: true,
     food: {
@@ -592,7 +610,7 @@ export class GameEngineComponent implements OnInit {
         this.moveObstacles();
         this.moveDevilTowardsPlayer()
       }
-    }, 16); // ~60fps
+    }, 24);
   }
 
   private moveObstacles(): void {

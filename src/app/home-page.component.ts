@@ -167,8 +167,8 @@ export class HomeComponent {
       image: 'images/projects/paint-tool.png',
     },
     {
-      title: 'Fruit Fenzy',
-      route: '/emoji-war',
+      title: 'Yes!! Hungry',
+      route: '/yes-hungry',
       image: 'images/projects/game.png',
     }
   ];
