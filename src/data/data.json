@@ -1,0 +1,219 @@
+{
+  "heroData": {
+    "location": "Hyderabad, India",
+    "experience": "Open to Opportunities",
+    "greeting": "Hi, I'm Vijay",
+    "highlight": "Senior Associate Consultant @ Infosys",
+    "description": "Front-End Engineer specializing in Angular and modern web technologies. With over 5 years of experience, I focus on building clean, scalable, and high-performing applications.",
+    "linkedinUrl": "https://www.linkedin.com/in/vijay18399"
+  },
+  "projectsData": [
+    {
+      "id": 1,
+      "icon": "devicon-javascript-plain",
+      "color": "#F5A623",
+      "title": "Dictionary App",
+      "image": "/dictionary.png",
+      "angularRoute": "dictionary",
+      "desc": "A simple English learning app that uses APIs to show word meanings, synonyms, and pronunciation.",
+      "tags": [
+        {
+          "name": "React",
+          "icon": "devicon-react-original colored"
+        },
+        {
+          "name": "Node.js",
+          "icon": "devicon-nodejs-plain colored"
+        },
+        {
+          "name": "REST APIs",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "devicon-html5-plain",
+      "color": "#FF7387",
+      "title": "Yes Hungry Game",
+      "image": "/game.png",
+      "angularRoute": "yes-hungry",
+      "desc": "An interactive learning game built to make learning more engaging and enjoyable for young learners.",
+      "tags": [
+        {
+          "name": "HTML5",
+          "icon": "devicon-html5-plain colored"
+        },
+        {
+          "name": "CSS3",
+          "icon": "devicon-css3-plain colored"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain colored"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "devicon-react-original",
+      "color": "#4A90E2",
+      "title": "Paint Tool",
+      "image": "/paint-tool.png",
+      "angularRoute": "paint-tool",
+      "desc": "A web-based drawing and annotation tool where users can draw, add annotations, and work with a digital canvas.",
+      "tags": [
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain colored"
+        },
+        {
+          "name": "Fabric.js",
+          "icon": ""
+        },
+        {
+          "name": "Canvas",
+          "icon": "devicon-html5-plain colored"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "devicon-angularjs-plain",
+      "color": "#7ED321",
+      "title": "Spell Bee Game",
+      "image": "/spell-bee.jpg",
+      "angularRoute": "spell-bee",
+      "desc": "A spelling practice app with different difficulty levels to help learners practice and improve their spelling.",
+      "tags": [
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain colored"
+        },
+        {
+          "name": "Node.js",
+          "icon": "devicon-nodejs-plain colored"
+        },
+        {
+          "name": "SQLite",
+          "icon": "devicon-sqlite-plain colored"
+        }
+      ]
+    }
+  ],
+  "experienceData": [
+    {
+      "company": "Infosys",
+      "role": "Senior Associate Consultant",
+      "date": "Oct 2025 – Present",
+      "bullets": [
+        "Developed frontend features using Angular, TypeScript, and the Client UI Framework, ensuring strict alignment with custom component guidelines and enterprise coding standards.",
+        "Served as an internal PR reviewer to validate code quality before client submissions, prevent review escalations, and help team members unblock tasks.",
+        "Supported sprint planning with the Scrum Master by analyzing technical scope and providing realistic story point estimations for upcoming features and bug fixes.",
+        "Authored and maintained product and configuration documentation, collaborating with the QA team to validate builds across test environments."
+      ]
+    },
+    {
+      "company": "Next Education (EdTech)",
+      "role": "Engineer",
+      "date": "Aug 2022 – Jul 2025",
+      "bullets": [
+        "Developed UI for AI-powered tools and interactive applications using WebRTC and REST APIs.",
+        "Experienced in handling migration projects, including AngularJS to Angular and Flash to Angular.",
+        "Built canvas-based solutions, including whiteboards, annotations, simulations, and interactive eBooks.",
+        "Primarily developed in Angular and legacy AngularJS, while also contributing to projects built with React, Next.js, jQuery, and vanilla JavaScript."
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Assistant System Engineer",
+      "date": "Feb 2021 – Jul 2022",
+      "bullets": [
+        "Provided support for multiple .NET maintenance projects, wrote SQL queries for generating reports, and resolved faulty data based on client requirements.",
+        "Resolved bugs in an Angular-based dynamic form builder, enabling admins to create customizable forms.",
+        "Implemented a page with cascading dropdowns and displayed reports based on user selection."
+      ]
+    }
+  ],
+  "skillsData": [
+    {
+      "category": "Frontend",
+      "skills": [
+        {
+          "name": "Angular",
+          "icon": "devicon-angularjs-plain colored"
+        },
+        {
+          "name": "React",
+          "icon": "devicon-react-original colored"
+        },
+        {
+          "name": "Next.js",
+          "icon": "devicon-nextjs-plain"
+        },
+        {
+          "name": "Vue.js",
+          "icon": "devicon-vuejs-plain colored"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "devicon-typescript-plain colored"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "devicon-javascript-plain colored"
+        }
+      ]
+    },
+    {
+      "category": "Backend & DB",
+      "skills": [
+        {
+          "name": "Node.js",
+          "icon": "devicon-nodejs-plain colored"
+        },
+        {
+          "name": ".NET",
+          "icon": "devicon-dotnetcore-plain colored"
+        },
+        {
+          "name": "Python",
+          "icon": "devicon-python-plain colored"
+        }
+      ]
+    },
+    {
+      "category": "Tools & Cross-Platform",
+      "skills": [
+        {
+          "name": "Git",
+          "icon": "devicon-git-plain colored"
+        },
+        {
+          "name": "Docker",
+          "icon": "devicon-docker-plain colored"
+        },
+        {
+          "name": "Electron",
+          "icon": "devicon-electron-original colored"
+        },
+        {
+          "name": "Ionic",
+          "icon": "devicon-ionic-original colored"
+        }
+      ]
+    }
+  ],
+  "educationData": {
+    "degree": {
+      "title": "B.Tech in Computer Science",
+      "institution": "Aditya Engineering College",
+      "gpa": "CGPA: 8.01"
+    },
+    "certifications": [
+      "MTA: Introduction to Programming Using Python",
+      "NPTEL: Modern Web Application Development",
+      "NPTEL: Data Structures & Algorithms Using Python"
+    ]
+  }
+}
