@@ -14,19 +14,28 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   metadataBase: new URL("https://vijayreddy.dev"),
   title: "Vijay Reddy | Senior Front-End Developer",
-  description: "Portfolio of Vijay Reddy, specializing in high-performance web applications and UI architecture.",
+  description: "Portfolio of Vijay Reddy, a Front-End Engineer specializing in Angular and modern web technologies with over 5 years of experience.",
   openGraph: {
     title: "Vijay Reddy | Senior Front-End Developer",
-    description: "Portfolio of Vijay Reddy, specializing in high-performance web applications and UI architecture.",
+    description: "Portfolio of Vijay Reddy, a Front-End Engineer specializing in Angular and modern web technologies with over 5 years of experience.",
     url: "https://vijayreddy.dev",
     siteName: "Vijay Reddy Portfolio",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Vijay Reddy Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Vijay Reddy | Senior Front-End Developer",
-    description: "Portfolio of Vijay Reddy, specializing in high-performance web applications and UI architecture.",
+    description: "Portfolio of Vijay Reddy, a Front-End Engineer specializing in Angular and modern web technologies with over 5 years of experience.",
+    images: ["/og-image.png"],
   },
   icons: {
     icon: "/favicon.svg",
